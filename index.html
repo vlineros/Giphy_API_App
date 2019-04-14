@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="style.css"/>
+    <title>Giphy Web App</title>
+  </head>
+  <body>
+    <div class="container-flex" id="navbar">
+      <div class="container">
+      <div class="nav">
+        <h1> Giphy Search App</h1>
+      </div>
+    </div>
+  </div>
+    <div class="container-flex">
+      <div class="container">
+          <h4>Click the buttons to search the Giphy database for gifs of that animal or add your own button and search for YOUR favorite animal.</h4>
+          <p>Click the gifs to animate them and double click to save the gif to the favorites tab!</p>
+        <div class="row">
+          <div class="col-4">
+            <form>
+            <input type="text" id="thing-input" />
+            <button id="add-button">
+              Add Animal
+            </button>
+          </form>
+            <div id="button-space"'></div>
+          </div>
+          <div class="col-8 align-self-end">
+            
+            <button id="favorites-button">Favorites</button>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12" id="favorites-space">
+            
+          </div>
+        </div>
+          <div class="row">
+          <div class="col-12" id="gif-space">
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script type="text/javascript" src="app.js"></script>
+</html>
