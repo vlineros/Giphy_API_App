@@ -1,6 +1,6 @@
 # Giphy_API_App
 
-Search the Giphy API for the perfect GIF, then save it for later!
+### Search the Giphy API for the perfect GIF, then save it for later!
 
 Made using Bootstrap, HTML, CSS, Giphy API, Local Storage
 
